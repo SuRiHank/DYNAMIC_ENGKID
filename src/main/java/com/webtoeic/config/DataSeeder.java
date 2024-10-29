@@ -42,5 +42,16 @@ public class DataSeeder implements ApplicationListener<ContextRefreshedEvent> {
 			member.setVaiTro(VaiTro.ROLE_MEMBER);
 			userRepository.save(member);
 		}
+
+		// VIP account
+		if (userRepository.findByEmail("membervip@gmail.com") == null) {
+			NguoiDung member = new NguoiDung();
+			member.setHoTen("Đăng Phước Hân");
+			member.setSoDienThoai("123456789");
+			member.setEmail("membervip@gmail.com");
+			member.setPassword(passwordEncoder.encode("123456"));
+			member.setVaiTro(VaiTro.ROLE_VIP);
+			userRepository.save(member);
+		}
 	}
 }

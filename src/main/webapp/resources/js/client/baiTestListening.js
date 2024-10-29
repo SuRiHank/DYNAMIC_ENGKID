@@ -100,7 +100,7 @@ $(document).ready(function(){
 		
 		var examId = $("#id_bai_exam").val();
 		
-		var url="http://localhost:8080/webtoeic/reading/"+examId+"/"+countCorrect;
+		var url="http://localhost:8080/webengkid/reading/"+examId+"/"+countCorrect;
 		
 		if(window.XMLHttpRequest){
 			xhttp = new XMLHttpRequest();
@@ -164,7 +164,7 @@ $(document).ready(function(){
 		
 		var examId = $("#id_bai_exam").val();
 		
-		var url="http://localhost:8080/webtoeic/showResultListening/"+examId+"/"+countCorrect;
+		var url="http://localhost:8080/webengkid/showResultListening/"+examId+"/"+countCorrect;
 		if(window.XMLHttpRequest){
 			xhttp = new XMLHttpRequest();
 		}

@@ -44,8 +44,8 @@ h3 {
 			<div class="row">
 				<!--LOGO-->
 				<div class="span2">
-					<a class="brand" href="/webtoeic"><img
-						src="/webtoeic/resources/file/images/Logo.PNG" /></a>
+					<a class="brand" href="/webengkid"><img
+						src="/webengkid/resources/file/images/Logo.PNG" /></a>
 				</div>
 				<!-- /LOGO -->
 
@@ -59,13 +59,13 @@ h3 {
 							<div class="nav-collapse collapse navbar-responsive-collapse">
 								<ul class="nav">
 									<c:if test="${pageContext.request.userPrincipal.name == null}">
-										<li class="active"><a href="/webtoeic">Trang chủ</a></li>
+										<li class="active"><a href="/webengkid">Trang chủ</a></li>
 										<li class="dropdown"><a href="#" class="dropdown-toggle"
 											data-toggle="dropdown">Luyện Tập <b class="caret"></b></a>
 											<ul class="dropdown-menu">
-												<li><a href="/webtoeic/listening/">Luyện bài nghe</a></li>
-												<li><a href="/webtoeic/reading/">Luyện bài đọc</a></li>
-												<li><a href="/webtoeic/listGrammar">Ngữ pháp</a></li>
+												<li><a href="/webengkid/listening/">Luyện bài nghe</a></li>
+												<li><a href="/webengkid/reading/">Luyện bài đọc</a></li>
+												<li><a href="/webengkid/listGrammar">Ngữ pháp</a></li>
 												<li><a href="<%=request.getContextPath()%>/listVocab">Từ
 														vựng</a></li>
 											</ul></li>
@@ -76,13 +76,13 @@ h3 {
 
 
 									<c:if test="${pageContext.request.userPrincipal.name != null}">
-										<li class="active"><a href="/webtoeic">Trang chủ</a></li>
+										<li class="active"><a href="/webengkid">Trang chủ</a></li>
 										<li class="dropdown"><a href="#" class="dropdown-toggle"
 											data-toggle="dropdown">Luyện Tập <b class="caret"></b></a>
 											<ul class="dropdown-menu">
-												<li><a href="/webtoeic/listening/">Luyện bài nghe</a></li>
-												<li><a href="/webtoeic/reading/">Luyện bài đọc</a></li>
-												<li><a href="/webtoeic/listGrammar">Ngữ pháp</a></li>
+												<li><a href="/webengkid/listening/">Luyện bài nghe</a></li>
+												<li><a href="/webengkid/reading/">Luyện bài đọc</a></li>
+												<li><a href="/webengkid/listGrammar">Ngữ pháp</a></li>
 												<li><a href="<%=request.getContextPath()%>/listVocab">Từ
 														vựng</a></li>
 												<li><a href="<%=request.getContextPath()%>/listExam">Ôn

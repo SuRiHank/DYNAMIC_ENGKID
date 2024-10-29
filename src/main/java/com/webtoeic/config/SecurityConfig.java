@@ -50,7 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		        .antMatchers("/register").permitAll()
 		        .antMatchers("/").permitAll()
 				.antMatchers("/admin").hasRole("ADMIN")
-				.antMatchers("/profile").hasAnyRole("MEMBER, ADMIN")
+				.antMatchers("/profile").hasAnyRole("MEMBER", "ADMIN")
 				.antMatchers("/listExam").hasAnyRole("MEMBER","ADMIN")
 			    .and()
 			.oauth2Login()

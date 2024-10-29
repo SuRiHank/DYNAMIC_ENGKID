@@ -8,7 +8,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Webtoeic - Đăng nhập</title>
+<title>webengkid - Đăng nhập</title>
 <link rel="stylesheet" href="<c:url value='/css/login.css'/>">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -57,7 +57,7 @@
 				<section class="section">
 					<div class="container">
 						<a class="btn btn-primary" style="margin-top: 10px;"
-							href="/webtoeic/oauth2/authorization/facebook"> <i class="fa fa-facebook-square"></i> Đăng nhập với Facebook
+							href="/webengkid/oauth2/authorization/facebook"> <i class="fa fa-facebook-square"></i> Đăng nhập với Facebook
 						</a>
 					</div>
 				</section>

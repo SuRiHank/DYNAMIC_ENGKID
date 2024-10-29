@@ -81,7 +81,7 @@
 				<div>
 					<button class="btn btn-success" id="btnNopBai">Nộp bài</button>
 					<a class="btn btn-success hidden" id="btnBaiThiKhac"
-						href="/webtoeic/listening">Làm bài thi khác</a>
+						href="/webengkid/listening">Làm bài thi khác</a>
 				</div>
 
 				<!--/.Pagination-->
@@ -91,11 +91,11 @@
 
 					<h3>Danh mục</h3>
 					<ul class="nav nav-list">
-						<li><a href="/webtoeic/listening">LUYỆN BÀI NGHE</a></li>
-						<li><a href="/webtoeic/reading">LUYỆN BÀI ĐỌC</a></li>
-						<li><a href="/webtoeic/listExam">THI THỬ</a></li>						
-						<li><a href="/webtoeic/listGrammar">HỌC NGỮ PHÁP</a></li>
-						<li><a href="/webtoeic/listVocab">HỌC TỪ VỰNG</a></li>
+						<li><a href="/webengkid/listening">LUYỆN BÀI NGHE</a></li>
+						<li><a href="/webengkid/reading">LUYỆN BÀI ĐỌC</a></li>
+						<li><a href="/webengkid/listExam">THI THỬ</a></li>						
+						<li><a href="/webengkid/listGrammar">HỌC NGỮ PHÁP</a></li>
+						<li><a href="/webengkid/listVocab">HỌC TỪ VỰNG</a></li>
 					</ul>
 
 				</div>
